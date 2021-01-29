@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: darkgray;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header
+{
+  width: 100%;
+  background-color: rgb(255, 217, 0);
+  height: 10vh;
+}
+
+.header img
+{
+  max-height: 100%;
+z-index: 1;
+position: relative;
+top: 0;
+left: 0;
+}
+/* .header h1{
+  font-size: 35px;
+  top: 0;
+  padding-left: 70px;
+  text-align: center;
+  position: absolute;
+
+} */
+
+.footer
+{
+  
+color: white;
+  bottom:0;
+  width:100%;
+  height:60px;   /* Height of the footer */
+  background:rgb(8, 0, 0);
+  display: flex;
+  align-items: center; /** Y-axis align **/
+  justify-content: center; /** X-axis align **/
+}
+
+.main_note input, textarea
+{
+  margin: 10px 0 0 0 ;
+  width: 100%;
+ background-color: rgb(255, 241, 117);
+  max-width: 30vh;
+  
+ border: 1px solid black;
+ border-radius: 5%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+
+
+ align-items: center;
+ justify-content: center; /** X-axis align **/
+}
+
+.main_note button
+{
+  font-size: 20px;
+  border-radius: 50%;
+  border: 1px solid black;
+  outline: none;
+  color:black;
+  background-color: rgb(255, 217, 0);
+  margin: 10px 0 0 0 ;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main_note
+{
+  height: 100vh;
+  max-height: 100%;
+ 
+}
+
+.main_note input 
+{
+  min-height: 4vh;
+}
+.main_note textarea
+{
+  min-height: 10vh;
+}
+
+.note{
+background-color: red;
+display: flex;
+max-width: 10vh;
+max-height: 100%;
+
+
+}
